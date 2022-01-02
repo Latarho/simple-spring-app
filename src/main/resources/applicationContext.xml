@@ -11,4 +11,9 @@
           class="ru.pomytkin.springapp.ClassicMusic">
     </bean>
 
+    <bean id="musicPlayer"
+          class = "ru.pomytkin.springapp.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
