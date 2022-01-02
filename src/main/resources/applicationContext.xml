@@ -7,9 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="ru.pomytkin.springapp.TestBean">
-        <constructor-arg value="Serg"/>
+    <bean id="musicBean"
+          class="ru.pomytkin.springapp.ClassicMusic">
     </bean>
 
 </beans>
